@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #888;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    margin-right: 20px;
+    list-style: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.hero-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 52px;
+    font-weight: 900;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #333;
+    padding: 20px 30px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.hero-img{
+    flex: 1;
+}
+
+img{
+    width: 100%;
+}
+
+.products{
+    margin-bottom: 20px;
+    padding: 20px;
+    background: palevioletred;
+}
+
+.products h3{
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product{
+    width: 300px;
+    margin:  0 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-text{
+    padding: 10px;
+    color: #333;
+    background: #fff;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background: #333;
+    color: #fff;
+}
+
+.quote q, .quote p{
+    font-size: 20px;
+}
+
+q{
+    font-style: italic;
+}
+
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+   
+}
+
+.cta-text{
+    background: #05568b;
+    padding: 30px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.cta-text h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 20px;
+    background: #888;
+    color: #fff;
+}
